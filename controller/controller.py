@@ -3,15 +3,6 @@ from model import model
 
 class Controller:
     db = model.Database()
-    """
-    pw1 = model.Password(1, "2", "3", "4", "5")
-    pw2 = model.Password(2, "name", "pw", "url", "note")
-    pw3 = model.Password(3, "susi", "1234", "www", "abc")
-    db.set_name("test")
-    db.set_entry(pw1)
-    db.set_entry(pw2)
-    db.set_entry(pw3)
-    """
 
     def __init__(self):
         pass
